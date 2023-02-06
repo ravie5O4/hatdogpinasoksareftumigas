@@ -95,7 +95,7 @@ body {
   text-align: center;
   padding: 0 33px 33px;
   color: #ffffff;
-  visibility: invisible;
+  visibility: hidden;
   transition: transform 0.4s, top 0.4s;
 }
 
