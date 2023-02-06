@@ -85,24 +85,24 @@ body {
 }
 
 .popup {
-  width: 399px;
+  width: 400x;
   background: #181818;
   border-radius: 10px;
   position: absolute;
-  top: 50%;
+  top: 0;
   left: 50%;
   transform: translate(-50%, -50%) scale(0.1);
   text-align: center;
   padding: 0 33px 33px;
   color: #ffffff;
-  visibility: visible;
+  visibility: invisible;
   transition: transform 0.4s, top 0.4s;
 }
 
 .open-popup {
   visibility: visible;
   top: 50%;
-  transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1.5);
 }
 h4 {
   margin-top: -2px;
