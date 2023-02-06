@@ -89,13 +89,13 @@ body {
   background: #181818;
   border-radius: 10px;
   position: absolute;
-  top: 0;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0.1);
   text-align: center;
   padding: 0 33px 33px;
   color: #ffffff;
-  visibility: hidden;
+  visibility: visible;
   transition: transform 0.4s, top 0.4s;
 }
 
