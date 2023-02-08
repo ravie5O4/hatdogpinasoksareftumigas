@@ -10,20 +10,22 @@
   </head>
   <body>
     <div class="greetings">
-      <span>1</span>
-      <span>2</span>
-      <span>/</span>
-      <span>0</span>
-      <span>9</span>
-      <span>/</span>
-      <span>2</span>
-      <span>2</span>
+      <span>H</span>
+      <span>A</span>
+      <span>P</span>
+      <span>P</span>
+      <span>Y</span>
+    </div>
+    <div class="greetings">
+      <p class="month">M O N T H S A R Y</p>
+      <P class="hart">♥</P>
+      
     </div>
     <div class="description">
-      <span>Madiii!!! It's been 2 months HAHAHA</span>
+      <p class="description" id="result1"></p>
     </div>
     <div>
-      <button type="submit" style="padding-top: 50px;" class="btn1" onclick="openPopup()">short message</button>
+      <button id="result2" type="submit" style="padding-top: 50px;" class="btn1" onclick="openPopup()"></button>
       <div class="popup" id="popup">
         <p class="surpriseText">
          <h2>Happy 2nd Monthsaryyy Lalovee!</h2> It's hard to believe that our journey
@@ -44,7 +46,7 @@
         </p>
         <div class="button">
             <button>
-              <a class="ok" href="surprise.html">Click last dali HAHAHAHA</a>
+              <a class="ok" href="surprise.html">oh panis english, click last dali</a>
             </button>
           </div>
       </div>
@@ -58,7 +60,20 @@
          function closePopup() {
            popup.classList.remove("open-popup");
         }
-
+    </script>
+    <script type="text/javascript">
+      function message() {
+        document.getElementById("result1").innerHTML =
+          "It's been 2 months mf HAHAHAHAH";
+      }
+      setTimeout(message, 6100);
+    </script>
+    <script type="text/javascript">
+      function message() {
+        document.getElementById("result2").innerHTML =
+          ">click me ugh<";
+      }
+      setTimeout(message, 7100);
     </script>
   </body>
 </html>
