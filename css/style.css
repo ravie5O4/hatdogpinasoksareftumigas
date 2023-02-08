@@ -87,7 +87,7 @@ body {
 .popup {
   width: 400px;
   background: #181818;
-  border-radius: 10px;
+  border-radius: 9px;
   position: absolute;
   top: 0;
   left: 50%;
