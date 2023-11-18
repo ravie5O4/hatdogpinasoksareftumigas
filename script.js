@@ -66,8 +66,9 @@ bbtt3.addEventListener("click", function (){
 			btt1.style.opacity= "1";
 			bbtt3.style.opacity= "0";
 			sadcat.style.opacity= "1";
+	                playVid();
 			sadcat.style.paddingLeft= "7em";
-			playVid();
+			
 									
 });
 
