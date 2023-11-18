@@ -1,6 +1,10 @@
 const comeback = document.getElementById("btn2");
 const yes = document.getElementById("btn1");
 
+function playVid() {
+  vid.play();
+}
+
 //group 1 of btts
 
 const btt1 = document.getElementById('btt1');
@@ -57,10 +61,6 @@ btt12.addEventListener("click", function (){
 			hands.style.opacity= "1";
 									
 });
-
-function playVid() {
-  vid.play();
-}
 
 bbtt3.addEventListener("click", function (){
 			btt1.style.opacity= "1";
