@@ -91,7 +91,7 @@ btt2.addEventListener("click", function (){
 			bbtt1.style.opacity= "1";
 			crying.style.opacity= "1";			
 			yes.style.padding= "50px";
-			hands.style.paddingTop= "3.5em";
+			hands.style.paddingTop= "3.8em";
 
 				
 });
