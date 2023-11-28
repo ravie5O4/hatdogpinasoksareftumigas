@@ -1,5 +1,6 @@
 const comeback = document.getElementById("btn2");
 const yes = document.getElementById("btn1");
+let vid = document.getElementById("sadcat");
 
 function playVid() {
   vid.play();
