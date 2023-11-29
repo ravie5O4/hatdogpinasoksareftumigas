@@ -1,4 +1,4 @@
-const comeback = document.getElementById("btn2");
+const comeback = document.getElementById("btn2"); 
 const yes = document.getElementById("btn1");
 let vid = document.getElementById("sadcat");
 
@@ -6,7 +6,7 @@ function playVid() {
   vid.play();
 }
 
-var x = document.getElementById("myAudio"); 
+var x = document.getElementById("sound"); 
 
 function playAudio() { 
   x.play(); 
