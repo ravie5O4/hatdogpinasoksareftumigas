@@ -6,6 +6,12 @@ function playVid() {
   vid.play();
 }
 
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
 //group 1 of btts
 
 const btt1 = document.getElementById('btt1');
