@@ -119,11 +119,11 @@ body{
 				color: black;
 }
 #hands{
-				width: 50px;
+				width: 40px;
 				position: absolute;
-				top: 8.9em;
-				left: 6em;
-				animation: bounce2 2s ease infinite;
+				top: 9em;
+				left: 6.5em;
+				animation: bounce2 1.5s ease infinite;
 				opacity: 0;
 }
 #sadman{
