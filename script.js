@@ -93,11 +93,11 @@ btt4.addEventListener("click", function (){
 });
 
 btt2.addEventListener("click", function (){
+			hands.style.opacity= "0";
 			btt2.style.opacity= "0";
 			bbtt1.style.opacity= "1";
 			crying.style.opacity= "1";			
-			yes.style.padding= "55px";
-			hands.style.paddingTop= "3.8em";
+			yes.style.padding= "5rem";
 
 				
 });
